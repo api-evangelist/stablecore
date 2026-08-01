@@ -1,8 +1,27 @@
 aid: stablecore
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stablecore.png
 name: Stablecore
-description: 'Stablecore is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Stablecore provides digital-asset banking infrastructure that lets banks
+  and credit unions offer stablecoins, tokenized deposits, digital-asset accounts and
+  exchange, and digital-asset-based lending inside their existing core, digital-banking
+  and compliance stacks. The platform targets cross-border payments, treasury management,
+  digital-asset investing, crypto on/off-ramps and stablecoin sponsor banking, with
+  a multi-provider design intended to avoid vendor lock-in and built-in compliance
+  tooling. Stablecore is SOC 2 compliant and an ABA Partner Network member; investors
+  include Coinbase Ventures, Norwest Venture Partners and Bank of Utah. As of this
+  enrichment pass the company publishes a marketing and product site plus a blog, but
+  no public developer portal, API documentation, OpenAPI, SDKs or GitHub organization.'
 url: https://raw.githubusercontent.com/api-evangelist/stablecore/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Financial Services
+- Banking
+- Fintech
+- Stablecoins
+- Digital Assets
+- Tokenization
+- Blockchain
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://stablecore.com
+- type: Blog
+  url: https://stablecore.com/blog
+- type: Support
+  url: https://stablecore.com/contact
+- type: PrivacyPolicy
+  url: https://stablecore.com/privacy-policy
+- type: TermsOfService
+  url: https://stablecore.com/terms-and-conditions
+- type: LinkedIn
+  url: https://www.linkedin.com/company/stablecore/
+- type: DomainSecurity
+  url: security/stablecore-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
