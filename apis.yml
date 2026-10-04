@@ -45,7 +45,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Banking
 - Fintech
 - Stablecoins
@@ -63,6 +63,7 @@ tags_raw:
 - Tokenization
 - Blockchain
 - Payments
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
